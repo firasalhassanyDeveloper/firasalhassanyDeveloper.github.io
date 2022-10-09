@@ -1,0 +1,16 @@
+#intro-example {
+  height: 400px;
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+  #intro-example {
+    height: 600px;
+  }
+}
+
+
+test {
+  width: 80px;
+  height: 80px;
+}
