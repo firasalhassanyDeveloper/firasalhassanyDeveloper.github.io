@@ -1,0 +1,29 @@
+section {
+  background: #f2f2ea;
+  color: rgb(191, 168, 122);
+  padding-top: 6vmax;
+  padding-bottom: 6vmax;
+  font-family: 'Roboto',sans-serif;
+}
+.l-section-h {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+.vc_column-inner {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border-color: inherit;
+}
+
+.section .h1 {
+  font-family: 'Roboto',sans-serif;
+  font-size: 3rem!important;
+  line-height: 1.1!important;
+  margin-bottom: 0!important;
+  text-align: center;
+}
+
+

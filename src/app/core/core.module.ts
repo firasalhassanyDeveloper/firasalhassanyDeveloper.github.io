@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import {RouterModule} from "@angular/router";
+import { SectionComponent } from './section/section.component';
 
 
 
@@ -10,11 +12,13 @@ import { CarouselComponent } from './carousel/carousel.component';
   declarations: [
     HeaderComponent,
     FooterComponent,
-    CarouselComponent
+    CarouselComponent,
+    SectionComponent
   ],
-  imports: [
-    CommonModule
-  ],
-  exports: [HeaderComponent, FooterComponent, CarouselComponent]
+    imports: [
+        CommonModule,
+        RouterModule
+    ],
+    exports: [HeaderComponent, FooterComponent, CarouselComponent, SectionComponent]
 })
 export class CoreModule { }

@@ -1,0 +1,14 @@
+section {
+  position: relative;
+  background: linear-gradient(to bottom right, #e9d9b0 0%, #8c764b 100%);
+  color: white;
+  border: 0.1rem solid #bfa87a;
+  border-radius: 0.3rem;
+  padding-top: 4vmax;
+  padding-bottom: 4vmax;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 300;
+}
