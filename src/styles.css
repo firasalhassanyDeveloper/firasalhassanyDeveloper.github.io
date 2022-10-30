@@ -123,7 +123,7 @@ nav img {
 }
 
 .footer {
-  bottom: -40rem;
+  bottom: -30rem;
   position: relative;
   background: var(--amara_navbar_footer);
   font-size: small;
