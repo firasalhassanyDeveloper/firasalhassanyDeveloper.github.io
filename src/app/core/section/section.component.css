@@ -1,11 +1,30 @@
-section {
+.section-title {
   position: relative;
-  background: var(--amara_section_color);
-  padding-top: 1vmax;
-  padding-bottom: 1vmax;
+  text-align: center;
+  font-weight: 360;
+  padding-top: 2.5vmax;
+  padding-bottom: 2.5vmax;
 }
 
-.section-title {
-  text-align: center;
-  font-weight: 200;
+.section-1 {
+  color: var(--amara_navbar_footer);
+  background-color: var(--amara_font_color);
+  border-bottom: 0.15rem solid var(--amara_navbar_footer);
+}
+
+.section-2 {
+  color: #727070;
+  background: #c4c4c44d;
+  border-bottom: 0.1rem solid #727070;
+  border-top: 0.1rem solid #727070;
+  border-radius: 0.3rem;
+}
+
+.section-3 {
+  background: #79746c;
+  color: white;
+  border-radius: 0.3rem;
+  border-bottom: 0.1rem solid black;
+  border-top: 0.1rem solid black;
+  border-radius: 0.3rem;
 }

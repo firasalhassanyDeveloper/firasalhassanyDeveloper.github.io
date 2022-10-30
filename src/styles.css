@@ -1,6 +1,6 @@
 :root {
   --amara_font_color: rgb(187, 167, 123);
-  --amara_navbar_footer: rgb(54, 54, 54);
+  --amara_navbar_footer: rgb(0, 0, 0);
   --amara_body_bg: rgb(230, 230, 230);
 }
 
@@ -123,8 +123,6 @@ nav img {
 }
 
 .footer {
-  bottom: -30rem;
-  position: relative;
   background: var(--amara_navbar_footer);
   font-size: small;
   color: var(--amara_font_color);
@@ -139,7 +137,6 @@ nav img {
 .right {
   margin-left: auto;
 }
-/* your second question */
 
 .right a {
   margin-right: -0.9rem;
@@ -154,3 +151,4 @@ nav img {
   --bs-btn-hover-border-color: var(--amara_font_color);
   font-size: 1.1rem;
 }
+
