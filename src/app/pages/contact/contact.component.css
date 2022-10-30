@@ -1,0 +1,29 @@
+.contact {
+  text-align: center;
+  float: none;
+  margin: 0 auto;
+}
+
+#divElement{
+  position: absolute;
+  top: 32%;
+  left: 20%;
+  margin-top: 40px;
+  margin-left: -140px;
+  width: 100rem;
+  height: 25rem;
+}
+
+
+#wrapper {
+  width: 90rem;
+  overflow: hidden; /* will contain if #first is longer than #second */
+}
+.first {
+  width: 30rem;
+  float:left; /* add this */
+}
+
+.fa-envelope, .fa-phone, .fa-address-card {
+  font-size: 50px;
+}

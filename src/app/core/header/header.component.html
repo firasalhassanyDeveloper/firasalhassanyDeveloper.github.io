@@ -1,4 +1,5 @@
-<div class="container">
+<div class=" pb-2">
+  <div class="space"></div>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" routerLink="./home">
@@ -17,11 +18,17 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link aria-current=page" routerLink="./home"><span>Home</span></a>
+          <a class=" nav-link aria-current=page" routerLink="./home"><span>Home</span></a>
           <a class="nav-link" routerLink="./behandling">Behandelingen</a>
-          <a class="nav-link">Resultaten</a>
-          <a class="nav-link">Prijzen</a>
-          <a class="nav-link">Contact</a>
+          <a class="nav-link" routerLink="./home">Resultaten</a>
+          <a class="nav-link" routerLink="./home">Prijzen</a>
+          <a class="nav-link" routerLink="./home">Contact</a>
+        </div>
+        <div class="right">
+          <a class="nav-link" routerLink="./contact">
+            <button class="btn btn-afspraak">Maak nu een afspraak
+            </button>
+          </a>
         </div>
       </div>
     </div>
